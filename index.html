@@ -7,8 +7,14 @@
     <meta http-equiv="Content-Style-Type" content="text/css" />
     <meta name="description" content="Now, you can send an SMS to the below number with your location+message type tag, and it will be published online in a publicly accessible feed">
     <link rel="stylesheet" href="sakura.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8"/>
+    <meta charset="UTF-8"/>
     <!-- Copied from https://css-snippets.com/simple-horizontal-navigation/ -->
     <style type="text/css">
+
+        body {
+          font-size: 20px;
+        }
 
         h1 { font-family: Arial Black, Arial Bold, Gadget, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Arial Black, Arial Bold, Gadget, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Arial Black, Arial Bold, Gadget, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Arial Black, Arial Bold, Gadget, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Arial Black, Arial Bold, Gadget, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5667px; }
         nav ul {
@@ -19,9 +25,9 @@
         }
         nav li {
           font-family: sans-serif;
-          font-size: 1.2em;
+          font-size: 1.1em;
           line-height: 40px;
-          height: 40px;
+          height: 30px;
           border-bottom: 1px solid #888;
         }
          
@@ -39,11 +45,11 @@
          
         @media screen and (min-width: 600px) {
           nav li {
-            width: 200px;
+            width: 400px;
             border-bottom: none;
             height: 50px;
             line-height: 50px;
-            font-size: 1.4em;
+            font-size: 2em;
           }
          
           nav li {
@@ -60,12 +66,19 @@
             color: #16a085;
         }
 
-        .number {
-            font-weight: bold;
-            /*font-family: monospace;*/
-            line-height: 0.1;
-            font-size: 4em;
-            color: #f39c12;
+        #number {
+          font-weight: bold;
+          font-family: monospace;
+          line-height: 0.9;
+          font-size: 3em;
+          color: #f39c12;
+          text-decoration: none !important;
+          text-decoration-style: none !important;
+        }
+
+        #number:hover, #number:active {
+          text-decoration: none !important;
+          text-decoration-style: none !important;
         }
 
     </style>
@@ -79,8 +92,7 @@
     </header>
     <nav>
         <ul>
-            <li><a href="policy.html">Privacy Policy</a></li>
-            <li><a href="messages.html">Messages</a></li>
+            <li><a href="messages.html">View Messages</a></li>
         </ul>
     </nav>
     <section>
@@ -94,23 +106,25 @@
             <p>Send your message to the world</p>
             <p><strong>#SpeakIndia </strong></p>
             <p><strong>SMS <span class="red">&lt;Your Message&gt;</span> <span class="green">&lt;#location, #messagetype&gt;</span> to </strong></p>
-            <p class="number">924 603 33 44</p>
+            <a href="sms:+919246033344" id="number">9246033344</a>
 
             <p><strong>Locations:<br />
-            </strong><span class="green">#Delhi #Kashmir #Jamia #Assam #Ghaziabad #Bangalore #Mangalore #Mumbai #Assam #UP #Agra</span></p>
+            </strong><span class="green">#Delhi #Kashmir #Jamia #Assam #Ghaziabad #Bangalore #Mangalore #Mumbai #Assam #UP #Agra #Jaipur</span></p>
 
             <p><strong>Message Types:</strong></p>
             <p class="green">#help #update #opinion #checkin #violence </p>
-            <p><strong><br />
-
-            </strong>View all messages at <strong><a href="messages.html">speak.sarkar.icu/messages.html</a></strong></p>
+            <p style="font-size:1.2em;">View all messages at <br><strong><a href="messages.html">speak.sarkar.icu/messages.html</a></strong></p>
 
             <hr/>
         </article>
     </section>
 
     <footer>
-        <!-- TODO -->
+        <nav>
+        <ul>
+            <li><a href="policy.html">Privacy Policy</a></li>
+        </ul>
+    </nav>
     </footer>
 </body>
 </html>
