@@ -4,7 +4,7 @@
 
 This service may be used for the purpose of sharing important news and information when immediate access to broadband or mobile internet is not available. All messages shared using this service will be immediately available on the public board located at `speak.sarkar.icu`.
 
-The following section describes the data policy of the board service.
+The following section describes the data policy of the board service (The message board hosted at speak.sarkar.icu)
 
 ## Data 
 
