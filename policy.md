@@ -12,7 +12,7 @@ The owners of this website maintain a copy of data that is generated during the 
 
 In cases of emergency, the owners of this website may use the phone number associated with a particular message for the purposes of coordinating with the sender. The owners of this website will not use or disclose any data for the purposes of  advertising, or any other purposes leading to any kind of commercial gain. Further, data generated in the course of usage will not be retained for a period of more than seven days.
 
-We make use of the Google Docs service to host our board spreadsheet. At the point of insertion of data into the spreadsheet, all phone numbers are masked. Lastly, we make use of an SMS provider (`textlocal.in`) in order to allow users to broadcast messages on our platform. The data and privacy policies of the SMS provider differ from ours, and can be accessed here.
+We make use of the Google Docs service to host our board spreadsheet. At the point of insertion of data into the spreadsheet, all phone numbers are masked. Lastly, we make use of an SMS provider (`textlocal.in`) in order to allow users to broadcast messages on our platform. The data and privacy policies of the SMS provider differ from ours, and can be accessed at <https://www.textlocal.in/privacy/>.
 
 ## Abuse
 
